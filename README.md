@@ -1,1 +1,1 @@
-# portfolio-final 1st push. this one is for the header section. just another push on the wall. git her done.
+# portfolio-final 1st push. this one is for the header section. just another push on the wall. git her done. gitting cold now.
