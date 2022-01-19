@@ -1,0 +1,88 @@
+
+* {
+  margin: 0;
+  padding: 0;
+  
+}
+
+
+
+
+#portfolio {
+  margin: 20px;
+  margin-bottom: 100px;
+  
+  
+
+}
+
+#me {
+  font-size: xx-large;
+  gap: 30px;
+  margin: 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  height: 250px;
+  
+}
+
+
+section {
+
+  
+  height: 200px;
+  margin: 5px;
+  display: flex;
+  justify-content: center;
+  height: 200px;
+  gap: 25px;
+
+
+
+}
+
+.sectiontag {
+
+  margin: 15px;
+}
+
+
+body {
+  font-family: 'VT323', monospace;
+  color: #008106;
+  font-weight: bold;
+  text-align: left;
+  height: 1700px;
+  font-size: 20px;
+  background-image: url(./images/space_background.jfif);
+
+}
+
+main {
+
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+}
+
+
+
+#stack {
+  font-size: xx-large;
+  gap: 15px;
+  margin: 15px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  height: 400px;
+  color: orange;
+}
+
+
+h2 {
+  color: #008106;
+  padding: 15px;
+}
