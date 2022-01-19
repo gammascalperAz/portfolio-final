@@ -33,8 +33,23 @@
 
 #spaceman1 {
 
-  animation: rotation 10s infinite linear;
+  animation: rotation 5s infinite linear;
   animation-direction: reverse;
+  
+}
+
+@keyframes rotation {
+  from {
+    transform: rotate(359deg);
+  }
+  to {
+    transform: rotate(0deg);
+  }
+}
+
+#spaceman2 {
+
+  animation: rotation 60s infinite linear;
   
 }
 

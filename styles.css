@@ -95,8 +95,8 @@ header {
 }
 
 #earth {
-  -webkit-animation: rotation 25s infinite linear;
-          animation: rotation 25s infinite linear;
+  -webkit-animation: rotation 120s infinite linear;
+          animation: rotation 120s infinite linear;
 }
 
 @keyframes rotation {
@@ -187,9 +187,25 @@ header {
 }
 
 #spaceman1 {
-  -webkit-animation: rotation 10s infinite linear;
-          animation: rotation 10s infinite linear;
+  -webkit-animation: rotation 5s infinite linear;
+          animation: rotation 5s infinite linear;
   animation-direction: reverse;
+}
+
+@keyframes rotation {
+  from {
+    -webkit-transform: rotate(359deg);
+            transform: rotate(359deg);
+  }
+  to {
+    -webkit-transform: rotate(0deg);
+            transform: rotate(0deg);
+  }
+}
+
+#spaceman2 {
+  -webkit-animation: rotation 60s infinite linear;
+          animation: rotation 60s infinite linear;
 }
 
 @keyframes rotation {
