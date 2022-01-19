@@ -27,6 +27,8 @@ nav {
   margin-bottom: 25px;
   animation: rotation 16s infinite;
   animation-direction: reverse;
+  animation-delay: 2s;
+  animation-iteration-count: 2;
 }
 
 @keyframes rotation {
