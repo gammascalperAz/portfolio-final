@@ -1,12 +1,20 @@
 @media screen and (min-width: 550px) {
-
   #portfolio {
     display: flex;
     flex-direction: row;
-
   }
-
-
-
-
+  nav {
+    display: flex;
+    flex-direction: row;
+  }
+  #nav-links {
+    width: 50%;
+    height: 100%;
+    justify-content: space-evenly;
+    display: flex;
+    flex-direction: row;
+  }
+  
 }
+
+
