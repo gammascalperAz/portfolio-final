@@ -12,6 +12,8 @@ nav {
   -ms-flex-pack: distribute;
       justify-content: space-around;
   padding: 15px;
+  -ms-flex-line-pack: center;
+      align-content: center;
 }
 
 #nav-links {
@@ -119,7 +121,7 @@ header {
   position: fixed;
   width: 60px;
   height: 60px;
-  top: 60px;
+  top: 35px;
   right: 60px;
   color: #FFF;
   border-radius: 50px;
