@@ -25,7 +25,8 @@ nav {
 #logo {
   justify-items: center;
   margin-bottom: 25px;
-  animation: rotation 16s infinite linear;
+  animation: rotation 16s infinite;
+  animation-direction: reverse;
 }
 
 @keyframes rotation {

@@ -11,6 +11,21 @@ header {
 .header {
 
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   align-content: center;
+}
+
+#earth {
+
+  animation: rotation 25s infinite linear;
+  
+}
+
+@keyframes rotation {
+  from {
+    transform: rotate(359deg);
+  }
+  to {
+    transform: rotate(0deg);
+  }
 }
