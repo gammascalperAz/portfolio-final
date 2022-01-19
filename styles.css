@@ -170,6 +170,39 @@ header {
   margin-bottom: 100px;
 }
 
+#spaceman {
+  -webkit-animation: rotation 25s infinite linear;
+          animation: rotation 25s infinite linear;
+}
+
+@keyframes rotation {
+  from {
+    -webkit-transform: rotate(359deg);
+            transform: rotate(359deg);
+  }
+  to {
+    -webkit-transform: rotate(0deg);
+            transform: rotate(0deg);
+  }
+}
+
+#spaceman1 {
+  -webkit-animation: rotation 10s infinite linear;
+          animation: rotation 10s infinite linear;
+  animation-direction: reverse;
+}
+
+@keyframes rotation {
+  from {
+    -webkit-transform: rotate(359deg);
+            transform: rotate(359deg);
+  }
+  to {
+    -webkit-transform: rotate(0deg);
+            transform: rotate(0deg);
+  }
+}
+
 #me {
   font-size: xx-large;
   gap: 30px;
