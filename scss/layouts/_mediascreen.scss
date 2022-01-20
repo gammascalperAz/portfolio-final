@@ -10,13 +10,22 @@
 
 
 @media screen and (min-width: 767px) {
+  
+  h1,h2,h3 {
+    font-size: 35px;
+  }
+  
   #portfolio {
     display: flex;
     flex-direction: row;
+    
   }
   nav {
     display: flex;
     flex-direction: row;
+    justify-content: left;
+    
+    
   }
   #nav-links {
     width: 50%;
@@ -24,16 +33,19 @@
     justify-content:left;
     display: flex;
     flex-direction: row;
+    font-size: 30px;
   }
   
 }
+
+
 
 .sun {
   width: 400px;
   height: 400px;
   position: absolute;
   left: 90%;
-  top: 50%;
+  top: 80%;
   margin:-200px 0 0 -200px;
   border-radius: 50%;
   

@@ -1,1 +1,1 @@
-# portfolio-final 1st push. this one is for the header section. just another push on the wall. git her done. gitting cold now. we dont talk about bruno.
+This is for the portfolio project. My intention is the demonstrate some of the skills and knowledge I have abtained thus far. My theme is an 8 bit space theme. I believe nolsalgia can grab people's attention and invoke empathy.  I do not have a much on the Figma link, https://www.figma.com/file/PlT26wjDFjyL5AWDhJnHfp/Untitled?node-id=0%3A1, as I did not have enough memory on my computer at that point. 
