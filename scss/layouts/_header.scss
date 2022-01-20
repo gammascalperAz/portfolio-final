@@ -1,0 +1,58 @@
+header {
+  font-family: 'VT323', monospace;
+  color: #008106;
+  font-weight: bold;
+  text-align: left;
+  padding: 15px;
+  margin-top: 25px;
+  margin-bottom: 50px;
+
+}
+
+.header {
+
+  display: flex;
+  flex-direction: row;
+  align-content: center;
+  
+}
+
+h1 {
+  font-size: 24px;
+  
+}
+
+h2 {
+  font-size: 24px;
+  
+  
+}
+
+.blink_me {
+  animation: blinker 1s linear infinite;
+  animation-iteration-count: 10;
+}
+
+@keyframes blinker {
+  50% {
+    opacity: 0;
+  }
+}
+
+
+#earth {
+
+  animation: rotation 240s infinite linear;
+  margin-bottom: 10px;
+  
+}
+
+@keyframes rotation {
+  from {
+    transform: rotate(359deg);
+  }
+  to {
+    transform: rotate(0deg);
+  }
+}
+

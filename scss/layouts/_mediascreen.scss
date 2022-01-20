@@ -1,0 +1,59 @@
+@media screen and (max-width: 767px) {
+  .sun {
+    display: none;
+  }
+
+}
+
+
+
+
+
+@media screen and (min-width: 767px) {
+  
+  h1,h2,h3 {
+    font-size: 35px;
+  }
+  
+  #portfolio {
+    display: flex;
+    flex-direction: row;
+    
+  }
+  nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    
+    
+  }
+  #nav-links {
+    width: 50%;
+    height: 100%;
+    justify-content:left;
+    display: flex;
+    flex-direction: row;
+    font-size: 30px;
+  }
+  
+}
+
+
+
+.sun {
+  width: 400px;
+  height: 400px;
+  position: absolute;
+  left: 90%;
+  top: 80%;
+  margin:-200px 0 0 -200px;
+  border-radius: 50%;
+  
+  background: -webkit-radial-gradient(65% 15%, circle, white 1px, #ffe469 3%, #FECC51 60%, #ffe469 100%); 
+   background: -moz-radial-gradient(65% 15%, circle, white 1px, #ffe469 3%, #FECC51 60%, #ffe469 100%); 
+   background: -o-radial-gradient(65% 15%, circle, white 1px, #ffe469 3%, #FECC51 60%, #ffe469 100%);
+    background: radial-gradient(circle at 65% 15%, white 1px, #ffe469 3%, #FECC51 60%, #ffe469 100%);       
+
+}
+
+

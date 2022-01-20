@@ -1,0 +1,69 @@
+
+nav {
+  display: flex;
+  flex-direction:column;
+  height: 200px;
+  font-size: 24px;
+  color: lightgray;
+  justify-content:center;
+  padding: 15px;
+  align-content:center;
+
+  
+}
+
+
+
+#nav-links {
+  width: 50%;
+  height: 100%;
+  justify-content:center;
+  align-items:space-between;
+  display: flex;
+  flex-direction: column;
+  
+
+}
+
+#nav-links a {
+
+  text-align:start;
+}
+
+#logo {
+  justify-items: center;
+  margin-bottom: 25px;
+  animation: rotation 16s infinite;
+  animation-direction: reverse;
+  animation-delay: 2s;
+  animation-iteration-count: 2;
+}
+
+@keyframes rotation {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(359deg);
+  }
+}
+
+
+
+
+
+a {
+  width: 50%;
+  height: 50%;
+  text-decoration: none;
+  color: lightgray;
+  display: flex;
+  justify-content: space-evenly;
+
+  
+
+}
+
+a:hover {
+  color: orange;
+}

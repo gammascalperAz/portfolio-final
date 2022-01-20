@@ -1,0 +1,161 @@
+
+* {
+  margin: 0;
+  padding: 0;
+  
+}
+
+
+
+
+#portfolio {
+
+  margin-bottom: 100px;
+  margin-top: 50px;
+  
+  
+
+}
+
+.bodytext {
+  margin: 15px;
+}
+
+#spaceman {
+
+  animation: rotation 25s infinite linear;
+  
+}
+
+@keyframes rotation {
+  from {
+    transform: rotate(359deg);
+  }
+  to {
+    transform: rotate(0deg);
+  }
+}
+
+#spaceman1 {
+
+  animation: rotation 5s infinite linear;
+  animation-direction: reverse;
+  
+}
+
+@keyframes rotation {
+  from {
+    transform: rotate(359deg);
+  }
+  to {
+    transform: rotate(0deg);
+  }
+}
+
+#spaceman2 {
+
+  animation: rotation 60s infinite linear;
+  
+}
+
+@keyframes rotation {
+  from {
+    transform: rotate(359deg);
+  }
+  to {
+    transform: rotate(0deg);
+  }
+}
+
+#moon {
+
+  animation: rotation 60s infinite linear;
+  
+}
+
+@keyframes rotation {
+  from {
+    transform: rotate(359deg);
+  }
+  to {
+    transform: rotate(0deg);
+  }
+}
+
+
+#me {
+  font-size: xx-large;
+  gap: 30px;
+  margin: 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: left;
+  height: 500px;
+  color: lightgray;
+  
+}
+
+
+section {
+
+  
+  height: 200px;
+  margin: 5px;
+  display: flex;
+  justify-content:left;
+  align-content: center;
+  height: 200px;
+  gap: 25px;
+
+
+
+}
+
+.sectiontag {
+
+  margin: 15px;
+}
+
+
+body {
+  font-family: 'VT323', monospace;
+  color: #008106;
+  font-weight: bold;
+  text-align: left;
+  height: fit-content;
+  width:fit-content;
+  font-size: 20px;
+  background-image: url(./images/space_background.jfif);
+
+}
+
+main {
+
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+
+
+#stack {
+  font-size: xx-large;
+  gap: 15px;
+  margin: 15px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 400px;
+  color: orange;
+}
+
+
+h3 {
+  color: #008106;
+  padding: 15px;
+}
+
+footer {
+  font-size: 24px;
+
+}
