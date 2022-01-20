@@ -62,6 +62,21 @@
   }
 }
 
+#moon {
+
+  animation: rotation 60s infinite linear;
+  
+}
+
+@keyframes rotation {
+  from {
+    transform: rotate(359deg);
+  }
+  to {
+    transform: rotate(0deg);
+  }
+}
+
 
 #me {
   font-size: xx-large;
