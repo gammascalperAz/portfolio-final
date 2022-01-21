@@ -12,6 +12,8 @@
 
   margin-bottom: 100px;
   margin-top: 50px;
+  align-items: center;
+  justify-items: center;
   
   
 
@@ -85,13 +87,15 @@
 
 #me {
   font-size: xx-large;
-  gap: 30px;
+  gap: 15px;
   margin: 30px;
   display: flex;
   flex-direction: column;
-  justify-content: left;
-  height: 500px;
-  color: lightgray;
+  justify-content:left;
+  height: 400px;
+  color: orange;
+  align-items:flex-start;
+  
   
 }
 
@@ -144,7 +148,7 @@ main {
   margin: 15px;
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
+  justify-content: left;
   height: 400px;
   color: orange;
 }
